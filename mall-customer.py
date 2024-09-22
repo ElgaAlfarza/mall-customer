@@ -35,7 +35,7 @@ ax.annotate('Possible elbow point', xy=(3,140000), xytext=(3,50000),xycoords='da
 ax.annotate('Possible elbow point', xy=(5,80000), xytext=(5,150000),xycoords='data',
             arrowprops=dict(arrowstyle='->', connectionstyle='arc3', color='blue', lw=2))
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 st.pyplot()
 
 st.sidebar.subheader("Nilai Jumlah K")
